@@ -10,7 +10,7 @@ StarRocks supports using three authentication methods to integrate with AWS reso
 
 ## Authentication methods
 
-### Instance profile-based authentication
+### Instance profile-based Authentication
 
 The instance profile-based authentication method allows your StarRocks cluster to inherit the privileges specified in the instance profile of the EC2 instance on which the cluster runs. In theory, any cluster user who can log in to the cluster can perform permitted actions on your AWS resources according to the AWS IAM policies you have configured. The typical scenario for this use case is that you do not need any AWS resource access control between multiple cluster users in the cluster. This authentication method means no isolation is required within the same cluster.
 
