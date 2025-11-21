@@ -100,9 +100,9 @@ jobs:
         id: changed-files
         with:
           files: |
-            docs/en/**.md
-            docs/ja/**.md
-            docs/zh/**.md
+            docs/en/**/*.md
+            docs/ja/**/*.md
+            docs/zh/**/*.md
           separator: ","
       - name: List all changed files
         env:
